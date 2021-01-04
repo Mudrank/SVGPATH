@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svg path</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+
+
+
+<section>
+
+    <h1 class="anim" >Yo, you see this?</h1>
+    
+    </section>
+    
+    <section>
+    
+    <img class="anim" src="/image.png">
+    
+    <h1 class="anim">It's darn cool.</h1>
+    
+    </section>
+    
+    <section>
+    
+    <h1 class="anim">I know, right?</h1>
+    
+    </section>
+
+    <section>
+    
+        <h1 class="gradient-text">Thank you!  </h1>
+        
+        </section>
+    
+    <svg viewBox="0 0 500 500">
+
+<style type="text/css">
+
+.text{
+    text-transform: uppercase;    
+    fill: #73ff00;
+    opacity: .7;
+}
+
+</style>
+
+        <path id ="our-text" fill="#fff" d="M33.5 39.5v429h437v-429h-431"/>    
+    <text y="40" font-size="40" font-family = "'Montserrat', sans-serif;"> 
+        <textPath id ="text-path" class="text" href="#our-text" startOffset="450"> Yeah, let me check it out real quick
+    
+    </textPath>
+    
+    </text>
+    
+    </svg>
+
+<script src="/svg.js"></script>
+</body>
+</html>
